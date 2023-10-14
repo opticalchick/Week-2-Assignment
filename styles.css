@@ -18,6 +18,7 @@
 
 }
 
+/* this is styling the main header at the top of the page */
 h1 {
     height: 50px;
     width: 100%;
@@ -28,6 +29,7 @@ h1 {
     padding: 20px;
 }
 
+/* styling the body of the page */
 body {
     background-color: var(--page-bg-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -36,15 +38,17 @@ body {
 
 }
 
+/* this is to style the side menu and body  */
 body>div {
     flex-direction: row;
 }
 
+/* making a container for the side nav */
 .container {
     display: flex;
 }
 
-/* targets side nav */
+/* targets side nav menu*/
 .side-nav {
     min-width: 250px;
     height: 100%;
@@ -56,21 +60,25 @@ body>div {
     width: 20%;
 }
 
+/*  this gave proper layout to move main content to the right */
 .mainpage {
     position: relative;
     left: 300px;
 }
 
+/* styling the list of links and position for nav */
 .nav-links {
     list-style: none;
     position: relative;
 }
 
+/*  this is the styling for Contact Us on home page */
 h2 {
     color: var(--page-h2-color);
     filter: drop-shadow(2px 2px 1px #0f6a9e);
 }
 
+/* styling the look of the links in side nav */
 a {
     color: var(--page-links-color);
     font-size: 12pt;
@@ -78,27 +86,31 @@ a {
     font-weight: bold;
 }
 
+/*  this changes the color of the links when hovered over */
 a:hover {
     color: var(--page-hover-color);
 }
 
+/*  styling images on page */
 img {
     margin: 1rem;
     border-radius: 1rem;
     box-shadow: 4px 4px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* styling the captions */
 figcaption {
     color: black;
     text-align: center;
 }
 
+/*  styling the unordered lists */
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
+/*  this affects the images on each page */
 figure {
     display: inline-flex;
     grid-template-columns: 1fr;
@@ -110,10 +122,12 @@ figcaption {
     min-width: 300px;
 }
 
+/*  sets the font for each paragraph */
 p {
     font-size: 12pt;
 }
 
+/* all of the input sections below are for styling below "contact us" on homepage */
 input[type=text] {
     padding: 10px;
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
@@ -135,6 +149,7 @@ input[type=button] {
     border-radius: 5px;
 }
 
+/*  styling the table on the "good things to eat" page */
 th,
 td {
     padding: 5px;
@@ -149,6 +164,7 @@ td {
     font-size: 12pt;
 }
 
+/*  this food-pics tags were used for styling the photos on the Good Things to Eat page */
 #food-pics {
     text-align: center;
     margin: 50px auto;
@@ -177,13 +193,11 @@ td {
     color: black;
 }
 
-.left {
-    float: ;
-}
-
+/*  the three below are for layout/styling of the lists of images in the visit and eat pages */
 .places {
     display: inline-flex;
     flex-direction: row;
+    padding: 0;
 }
 
 #captions {
