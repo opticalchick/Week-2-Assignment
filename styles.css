@@ -75,6 +75,7 @@ a {
     color: var(--page-links-color);
     font-size: 12pt;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -90,7 +91,6 @@ img {
 figcaption {
     color: black;
     text-align: center;
-    font-weight: bold;
 }
 
 ul {
@@ -107,7 +107,7 @@ figure {
 
 figcaption {
     width: 0;
-    min-width: 30%;
+    min-width: 300px;
 }
 
 p {
@@ -157,7 +157,22 @@ td {
 
 #food-pics {
     margin: 0px 20px;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+}
+
+#food-pics2 {
+    text-align: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+#food-pics2 {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     color: black;
 }
@@ -169,4 +184,18 @@ td {
 .places {
     display: inline-flex;
     flex-direction: row;
+}
+
+#captions {
+    width: fit-content;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+#captions a {
+    margin: 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
 }
