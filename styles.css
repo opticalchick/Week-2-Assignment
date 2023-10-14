@@ -9,13 +9,6 @@
     --page-hover-color: rgba(17, 14, 189, 0.582);
     --page-button-color: rgb(33, 33, 150);
     --page-bfont-color: white;
-
-
-
-
-
-
-
 }
 
 /* this is styling the main header at the top of the page */
@@ -52,7 +45,6 @@ body>div {
 .side-nav {
     min-width: 250px;
     height: 100%;
-    background-color: var(--page-bg60-color);
     position: fixed;
     top: 120px;
     left: 0;
