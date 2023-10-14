@@ -56,6 +56,7 @@ body>div {
 .mainpage {
     position: relative;
     left: 300px;
+    width: 80%;
 }
 
 /* styling the list of links and position for nav */
@@ -124,6 +125,7 @@ input[type=text] {
     padding: 10px;
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 input[type=email] {
@@ -139,6 +141,7 @@ input[type=button] {
     color: var(--page-bfont-color);
     font-weight: 600;
     border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*  styling the table on the "good things to eat" page */
