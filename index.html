@@ -9,58 +9,66 @@
 </head>
 <!-- I used a relative link for the image in this section -->
 
-<body>
-    <h1>Trip to Mexico City, October 2022</h1>
 
-    <div class="links">
-        <div class="side-nav">
-            <menu>
-                <ul class="nav-links">
-                    <li><a href="index.html">
-                            <p>Home</p>
-                        </a></li>
-                    <li><a href="visit.html">
-                            <p>Places to Visit</p>
-                        </a></li>
-                    <li><a href="eat.html">
-                            <p>Good things to Eat</p>
-                        </a></li>
-                </ul>
-            </menu>
+<body>
+    <header>
+        <h1>Trip to Mexico City, October 2022</h1>
+    </header>
+    <br>
+    <div class="container">
+        <div class="links">
+            <div class="side-nav">
+                <menu>
+                    <ul class="nav-links">
+                        <li><a href="index.html">
+                                <p>Home</p>
+                            </a></li>
+                        <li><a href="visit.html">
+                                <p>Places to Visit</p>
+                            </a></li>
+                        <li><a href="eat.html">
+                                <p>Good things to Eat</p>
+                            </a></li>
+                    </ul>
+                </menu>
+            </div>
         </div>
     </div>
+    <div class="mainpage">
+        <p>
+            <img src="images/20220930_225941.jpg" width=400 alt="Becky & Rick at the Mexico City Airport" class="left">
 
-    <p>
-        <img src="images/20220930_225941.jpg" width=400 alt="Becky & Rick at the Mexico City Airport" class="left">
+            Mexico City is rich in culture, art, and history. It is the largest city in the Western Hemisphere; home
+            to
+            more
+            than
+            22 million people. With an abundance of parks, flowers, and architecture, there is always something to
+            catch
+            your
+            eye. I have included some highlights of our trip.
+        </p><br />
 
-        Mexico City is rich in culture, art, and history. It is the largest city in the Western Hemisphere; home to more
-        than
-        22 million people. With an abundance of parks, flowers, and architecture, there is always something to catch
-        your
-        eye. I have included some highlights of our trip.
-    </p><br />
+        <!-- There are two separate sized headers on the page and paragraphs are formatted-->
 
-    <!-- There are two separate sized headers on the page and paragraphs are formatted-->
+        <h2>Contact</h2>
+        <p>If you would like to contact us with questions or would like more info, please reach out!
+        </p>
 
-    <h2>Contact</h2>
-    <p>If you would like to contact us with questions or would like more info, please reach out!
-    </p>
+        <!-- This is the form for contact submission with the use of radio buttons -->
 
-    <!-- This is the form for contact submission with the use of radio buttons -->
+        <form>
+            <input type="text" name="firstName" placeholder="First Name">
+            <input type="text" name="lastName" placeholder="Last Name">
+            <input type="email" name="email" placeholder="Email Address">
+            <input type="text" name="phonenumber" placeholder="Phone Number"><br><br>
 
-    <form>
-        <input type="text" name="firstName" placeholder="First Name">
-        <input type="text" name="lastName" placeholder="Last Name">
-        <input type="email" name="email" placeholder="Email Address">
-        <input type="text" name="phonenumber" placeholder="Phone Number"><br><br>
+            <div class="contact form"><input type="radio" name="contact" value="email"> Email </div>
+            <div clas="contact form"><input type="radio" name="contact" value="phonenumber"> Phone</div>
+            <div class="contact form"><input type="radio" name="contact" value="Either"> Either</div>
+            <div class="contact form"><input type="button" value="Submit"></div>
 
-        <div class="contact form"><input type="radio" name="contact" value="email"> Email </div>
-        <div clas="contact form"><input type="radio" name="contact" value="phonenumber"> Phone</div>
-        <div class="contact form"><input type="radio" name="contact" value="Either"> Either</div>
-        <div class="contact form"><input type="button" value="Submit"></div>
-
-    </form>
-
+        </form>
+    </div>
 </body>
 
 </html>
