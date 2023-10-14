@@ -14,7 +14,7 @@
 /* this is styling the main header at the top of the page */
 h1 {
     height: 50px;
-    width: 100%;
+    width: auto;
     color: var(--page-h1-color);
     filter: drop-shadow(2px 2px 1px #0f6a9e);
     text-align: center;
@@ -45,7 +45,7 @@ body>div {
 .side-nav {
     min-width: 250px;
     height: 100%;
-    position: fixed;
+    position: absolute;
     top: 120px;
     left: 0;
     padding: 20px 30px;
@@ -56,7 +56,7 @@ body>div {
 .mainpage {
     position: relative;
     left: 300px;
-    width: 80%;
+    width: 70%;
 }
 
 /* styling the list of links and position for nav */
@@ -86,7 +86,7 @@ a:hover {
 
 /*  styling images on page */
 img {
-    margin: 1rem;
+    margin: 10px;
     border-radius: 1rem;
     box-shadow: 4px 4px 3px 2px rgba(0, 0, 0, 0.5);
 }
@@ -106,8 +106,8 @@ ul {
 /*  this affects the images on each page */
 figure {
     display: inline-flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: none;
+    grid-template-columns: none;
+    grid-template-rows: 1;
 }
 
 figcaption {
@@ -167,7 +167,7 @@ td {
 }
 
 #food-pics {
-    margin: 0px 20px;
+    margin: 0px 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -176,12 +176,12 @@ td {
 
 #food-pics2 {
     text-align: center;
-    margin: 50px auto;
+    margin: 10px auto;
     flex-wrap: wrap;
 }
 
 #food-pics2 {
-    margin: 0px 20px;
+    margin: 0px 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -189,17 +189,25 @@ td {
 }
 
 /*  the three below are for layout/styling of the lists of images in the visit and eat pages */
+
 .places {
+    padding: 0;
+}
+
+.places2 {
     display: inline-flex;
+    flex-wrap: wrap;
     flex-direction: row;
     padding: 0;
+    margin: 0 0;
 }
 
 #captions {
     width: fit-content;
     text-align: center;
-    margin: 20px auto;
-    font-weight: bold;
+    margin: 10px auto;
+    font-size: 10pt;
+
 }
 
 #captions a {
