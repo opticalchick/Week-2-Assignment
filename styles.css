@@ -100,14 +100,14 @@ ul {
 }
 
 figure {
-    display: inline-grid;
+    display: inline-flex;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: none;
 }
 
 figcaption {
     width: 0;
-    min-width: 100%;
+    min-width: 30%;
 }
 
 p {
@@ -167,5 +167,6 @@ td {
 }
 
 .places {
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
 }
