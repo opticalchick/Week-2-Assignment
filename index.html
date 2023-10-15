@@ -62,12 +62,14 @@
             <input type="text" name="lastName" placeholder="Last Name">
             <input type="email" name="email" placeholder="Email Address">
             <input type="text" name="phonenumber" placeholder="Phone Number"><br><br>
-
-            <div class="contact form"><input type="radio" name="contact" value="email"> Email </div>
-            <div clas="contact form"><input type="radio" name="contact" value="phonenumber"> Phone</div>
-            <div class="contact form"><input type="radio" name="contact" value="Either"> Either</div>
-            <div class="contact form"><input type="button" value="Submit"></div>
-
+            <fieldset>
+                <div class="submit-form">
+                    <input type="radio" name="contact" value="email"> Email
+                    <input type="radio" name="contact" value="phonenumber"> Phone
+                    <input type="radio" name="contact" value="Either"> Either
+                    <input type="button" value="Submit">
+                </div>
+            </fieldset>
         </form>
     </div>
 </body>

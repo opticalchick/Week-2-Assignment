@@ -48,8 +48,13 @@ body>div {
     position: absolute;
     top: 120px;
     left: 0;
-    padding: 20px 30px;
+    padding: 10px 30px;
     width: 20%;
+}
+
+.nav-menu {
+    padding: 0;
+
 }
 
 /*  this gave proper layout to move main content to the right */
@@ -226,4 +231,18 @@ td {
 .left {
     float: left;
     margin-right: 1em;
+}
+
+.submit-form {
+    display: inline;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin: 10px 0 10px;
+}
+
+fieldset {
+    text-align: center;
+    border: none;
 }
